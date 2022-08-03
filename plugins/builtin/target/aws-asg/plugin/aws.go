@@ -18,7 +18,7 @@ import (
 
 const (
 	defaultRetryInterval  = 10 * time.Second
-	defaultRetryLimit     = 15
+	defaultRetryLimit     = 1000
 	nodeAttrAWSInstanceID = "unique.platform.aws.instance-id"
 )
 
